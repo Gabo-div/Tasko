@@ -1,5 +1,5 @@
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v2_cache_tasko',
+const CACHE_NAME = 'v1_cache_tasko',
   urlsToCache = [
     './',
     './index.html',
