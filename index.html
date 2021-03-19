@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasko</title>
+
+    <meta name="theme-color" content="#007bff">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" href="img/icono.png">
+    <link rel="apple-touch-icon" href="img/icono.png">
+    <link rel="apple-touch-startup-image" href="img/icono.png">
+    <link rel="manifest" href="manifest.json">
+
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <header class="bg-primary">
+        <div class="container">
+            <div class="row py-3 align-items-center justify-content-between">
+                <div class="col-auto">
+                    <h1 class="title text-white">Tasko</h1>
+                    <i class="title-icon fas fa-check"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <form class="form" id="formulario">
+                            <div class="row">
+                                <div class="col-12 col-md-4 my-2">
+                                    <input class="form-control" autocomplete="off" placeholder="Titulo de la tarea"
+                                        type="text" name="nombreTarea" id="input-nombreTarea">
+                                </div>
+
+                                <div class="col-12 col-md-6 my-2">
+                                    <input class="form-control" autocomplete="off"
+                                        placeholder="Escribe aqui lo que tengas que hacer" type="text" name="tarea"
+                                        id="input-tareas">
+                                </div>
+
+                                <div class="col-12 col-md-2 my-2">
+                                    <input class="btn btn-primary px-3" type="submit" id="input-crear" value="Agregar">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-5 seccion-tareas">
+            <div class="row">
+                <div class="col" id="contenedor-tareas">
+                    
+                </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-12">
+                    <p>&copy; Todos los derechos reservados</p>
+                    <p><i class="fas fa-code"></i> Desarrollado por: Gabriel Hernandez</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/tareas.js"></script>-->
+    <script src="js/tareas2.0.js"></script>
+
+</body>
+
+</html>

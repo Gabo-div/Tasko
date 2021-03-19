@@ -1,0 +1,100 @@
+$rojo: #e74c3c;
+$primary: #007bff;
+
+
+.boton-panel{
+    i{
+        color: $primary;
+        font-size: 2.5em;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        right: 130%;
+        
+    }
+}
+
+.title-icon{
+
+    color: white;
+    display: inline;
+    font-size: 2em;
+    margin-left: 5px;
+
+}
+
+.title{
+    display: inline;
+}
+
+.seccion-tareas{
+    min-height: 75vh;
+
+    .fa-check{
+
+        font-size: 1.5em;
+        padding: 5px;
+        color:#28a745;
+
+    }
+
+    .fa-times{
+
+        font-size: 1.5em;
+        padding: 5px;
+        color:#dc3545;
+
+    }
+
+    .fas{
+        cursor: pointer;
+        b{
+            display: none;
+        }
+
+    }
+}
+
+footer{
+
+    color: white;
+    .col-12{
+        text-align: justify;
+        p{
+            font-size: 1em;
+            font-weight: bold;
+            margin: 0;
+        }
+        
+        >i{
+            font-size: 3em;
+        }
+    };
+   
+
+}
+
+//--------------------------------------------------------
+//MEDIA QUERYS
+//--------------------------------------------------------
+
+@media all and (max-width: 768px){
+
+    .menu-panel{
+
+        width: 50%;
+        right: -55%;
+    
+    }
+
+    .boton-panel{
+        i{
+
+            top: 50%;
+            right: 115%;
+            
+        }
+    }
+
+}
+

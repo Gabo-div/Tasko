@@ -1,0 +1,82 @@
+.boton-panel i {
+  color: #007bff;
+  font-size: 2.5em;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 130%; }
+
+.menu-panel {
+  background: white;
+  -webkit-box-shadow: 1px 0px 20px 5px #212529;
+  box-shadow: 1px 0px 20px 5px #212529;
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  z-index: 20;
+  top: 0%;
+  right: -30%;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+  .menu-panel.active {
+    right: 0%; }
+  .menu-panel .titulo-panel {
+    background: #007bff;
+    color: white;
+    height: 80px;
+    text-align: center; }
+    .menu-panel .titulo-panel h3 {
+      margin: 0;
+      margin-top: 20px; }
+  .menu-panel .subtitulo-panel {
+    text-align: center;
+    border-bottom: 1px solid #212529; }
+    .menu-panel .subtitulo-panel h4 {
+      font-size: 1.2em; }
+  .menu-panel p {
+    display: inline;
+    font-size: 1em; }
+
+.title-icon {
+  color: white;
+  display: inline;
+  font-size: 2em;
+  margin-left: 5px; }
+
+.title {
+  display: inline; }
+
+.seccion-tareas {
+  min-height: 75vh; }
+  .seccion-tareas .fa-check {
+    font-size: 1.5em;
+    padding: 5px;
+    color: #28a745; }
+  .seccion-tareas .fa-times {
+    font-size: 1.5em;
+    padding: 5px;
+    color: #dc3545; }
+  .seccion-tareas .fas {
+    cursor: pointer; }
+    .seccion-tareas .fas b {
+      display: none; }
+
+footer {
+  color: white; }
+  footer .col-12 {
+    text-align: justify; }
+    footer .col-12 p {
+      font-size: 1em;
+      font-weight: bold;
+      margin: 0; }
+    footer .col-12 > i {
+      font-size: 3em; }
+
+@media all and (max-width: 768px) {
+  .menu-panel {
+    width: 50%;
+    right: -55%; }
+  .boton-panel i {
+    top: 50%;
+    right: 115%; } }
