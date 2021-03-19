@@ -1,6 +1,6 @@
 //Asignar un nombre y versión al cache
 const Cache_Name = 'v1_cache_tasko',
-    urlsToCahe = [
+    urlsToCache = [
         './',
         './css/all.min.css',
         './css/bootstrap.min.css',
